@@ -4,19 +4,13 @@ using namespace std;
 
 void callCompression() {
 
-
-
 }
 
 void callDecompression() {
 
-
-
 }
 
 void callMetrics() {
-
-
 
 }
 
@@ -31,18 +25,31 @@ void callMenu() {
     switch(n) {
 
         case 1:
+
             callCompression();
+
             break;
+
         case 2:
+
             callDecompression();
+
             break;
+
         case 3:
+
             callMetrics();
+
             break;
+
         default:
+
             cout << "Operac,a~o inva'lida. Tente novamente." << endl;
+
             callMenu();
+
             break;
+
     }
 
 }
@@ -53,4 +60,5 @@ int main()
     callMenu();
 
     return 0;
+
 }
