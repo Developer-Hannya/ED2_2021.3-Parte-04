@@ -46,8 +46,6 @@ void callMenu() {
 
             cout << "Operac,a~o inva'lida. Tente novamente." << endl;
 
-            callMenu();
-
             break;
 
     }
