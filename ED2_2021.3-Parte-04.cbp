@@ -37,6 +37,8 @@
 		<Unit filename="huffman.cpp" />
 		<Unit filename="huffman.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="moduloteste.cpp" />
+		<Unit filename="moduloteste.h" />
 		<Unit filename="no.cpp" />
 		<Unit filename="no.h" />
 		<Extensions>
