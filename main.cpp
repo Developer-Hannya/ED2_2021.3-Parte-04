@@ -8,6 +8,11 @@ void callCompression() {
 
 void callDecompression() {
 
+    std::ifstream file;
+
+    std::string info;
+
+
 }
 
 void callMetrics() {
