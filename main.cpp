@@ -12,6 +12,9 @@ using namespace std;
 
 void callCompression()
 {
+    huffman h;
+
+
 
 }
 

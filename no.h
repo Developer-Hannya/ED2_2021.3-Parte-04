@@ -5,41 +5,42 @@ class no
 {
     public:
 
-    no();
+        no();
 
-    char getchar();
+        char getchar();
 
-    int getfreq();
+        int getfreq();
 
-    bool getraizpai();
+        bool getraizpai();
 
-    no* getpai();
+        no* getpai();
 
-    no* getesq();
+        no* getesq();
 
-    no* getdir();
+        no* getdir();
 
-    void setesq(no* e);
+        void setesq(no* e);
 
-    void setdir(no* d);
+        void setdir(no* d);
 
-    void setsen(no* es,no* di);
+        void setsen(no* es,no* di);
 
-    void setraizpai(bool a);
+        void setraizpai(bool a);
 
-    void setpai(no *p);
+        void setpai(no *p);
 
-    void setinfo(char na,int fr);
+        void setinfo(char na,int fr);
+
 
     private:
 
-    no *esq,*dir,*pai;
+        no *esq,*dir,*pai;
 
-    bool raizpai;
+        bool raizpai;
 
-    char n;
+        char n;
 
-    int frequencia;
+        int frequencia;
 
 };
 #endif
