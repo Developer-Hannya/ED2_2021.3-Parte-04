@@ -34,9 +34,10 @@ void callDecompression()
 
     }
 
-   resultados= fread(n, sizeof n, 100, arq);
+   resultados = fread(n, sizeof n, 100, arq);
 
-   for(i = 0; i < resultados; i++){
+   for(i = 0; i < resultados; i++)
+   {
 
     descomp[j] = n[i];
 
