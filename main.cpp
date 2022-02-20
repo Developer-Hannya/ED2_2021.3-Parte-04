@@ -42,20 +42,20 @@ void callDecompression()
 
     }
 
-   resultados = fread(n, sizeof n, 100, arq);
+    resultados = fread(n, sizeof n, 100, arq);
 
-   for(i = 0; i < resultados; i++)
-   {
+    for(i = 0; i < resultados; i++)
+    {
 
-    descomp[j] = n[i];
+        descomp[j] = n[i];
 
-   }
+    }
 
-   arq2 = fopen("reviewsOrig.bin", "wb");
+    arq2 = fopen("reviewsOrig.bin", "wb");
 
-   fwrite(n, sizeof(int), 100, arq2);
+    fwrite(n, sizeof(int), 100, arq2);
 
-   fclose(arq);
+    fclose(arq);
 
 }
 
