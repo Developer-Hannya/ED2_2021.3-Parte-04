@@ -8,21 +8,21 @@ class huffman
 {
     public:
 
-    huffman(int N);
+        huffman(int N);
 
-    void lista();
+        void lista();
 
-    void montador();
+        void montador();
 
-    void menores(no *m, no *n);
+        void menores(no *m, no *n);
 
     private:
 
-    int n, ind = 0;
+        int n, ind = 0;
 
-    no *raiz, *primeiro;
+        no *raiz, *primeiro;
 
-    std::string reviews;
+        std::string reviews;
 
 };
 

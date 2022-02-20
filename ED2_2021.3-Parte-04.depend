@@ -28,9 +28,9 @@
 	"huffman.h"
 	"TikTokData.h"
 
-1645387638 c:\users\bernardo\ed2_2021.3-parte-04\no.h
+1645388141 c:\users\bernardo\ed2_2021.3-parte-04\no.h
 
-1645387825 c:\users\bernardo\ed2_2021.3-parte-04\huffman.h
+1645388185 c:\users\bernardo\ed2_2021.3-parte-04\huffman.h
 	<string>
 	"no.h"
 
@@ -38,4 +38,24 @@
 	<iostream>
 	"no.h"
 	"huffman.h"
+
+1642644640 source:c:\users\bernardo\ed2_2021.3-parte-04\moduloteste.cpp
+	<iostream>
+	<fstream>
+	<time.h>
+	"moduloteste.h"
+
+1642644640 c:\users\bernardo\ed2_2021.3-parte-04\moduloteste.h
+	<vector>
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	<process.h>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<vector>
+	"TikTokData.h"
 
