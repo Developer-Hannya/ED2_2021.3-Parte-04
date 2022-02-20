@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-
 #include "no.h"
 #include "huffman.h"
 #include "TikTokData.h"
