@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <vector>
 
 #include "no.h"
 #include "huffman.h"
@@ -93,6 +92,11 @@ void huffman::montador()
         {
             no *novo = new no();
             novo->setinfo('+',a->getfreq()+b->getfreq());
+            a->getesq()->setdir(a->getdir());
+            a->getdir()->setesq(a->getesq());
+            b->getesq()->setdir(b->getdir());
+            b->getdir()->setesq(b->getesq());
+
             a->setsen(NULL,NULL);
             b->setsen(NULL,NULL);
             a->setpai(novo);
@@ -108,6 +112,11 @@ void huffman::montador()
         {
             no *novo = new no();
             novo->setinfo('+',a->getfreq()+b->getfreq());
+            a->getesq()->setdir(a->getdir());
+            a->getdir()->setesq(a->getesq());
+            b->getesq()->setdir(b->getdir());
+            b->getdir()->setesq(b->getesq());
+
             a->setsen(NULL,NULL);
             b->setsen(NULL,NULL);
             a->setpai(novo);
@@ -123,6 +132,11 @@ void huffman::montador()
         {
             no *novo = new no();
             novo->setinfo('+',a->getfreq()+b->getfreq());
+            a->getesq()->setdir(a->getdir());
+            a->getdir()->setesq(a->getesq());
+            b->getesq()->setdir(b->getdir());
+            b->getdir()->setesq(b->getesq());
+
             a->setsen(NULL,NULL);
             b->setsen(NULL,NULL);
             a->setpai(novo);
@@ -140,6 +154,11 @@ void huffman::montador()
         {
            no *novo = new no();
            novo->setinfo('+',a->getfreq()+b->getfreq());
+           a->getesq()->setdir(a->getdir());
+           a->getdir()->setesq(a->getesq());
+           b->getesq()->setdir(b->getdir());
+           b->getdir()->setesq(b->getesq());
+
            a->setsen(NULL,NULL);
            b->setsen(NULL,NULL);
            a->setpai(novo);
