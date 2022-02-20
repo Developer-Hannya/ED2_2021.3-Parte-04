@@ -21,7 +21,7 @@ void callDecompression()
 
     int resultados;
 
-    int i,j=0;
+    int i,j = 0;
 
     arq = fopen("reviewsComp.bin", "rb");
 
