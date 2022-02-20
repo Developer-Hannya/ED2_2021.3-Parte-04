@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
+#include <fstream>
+
 using namespace std;
 
 void callCompression()
@@ -12,29 +14,39 @@ void callDecompression()
 {
 
     FILE *arq,*arq2;
+
     double descomp[100];
+
     double n[100];
+
     int resultados;
+
     int i,j=0;
+
     arq = fopen("reviewsComp.bin", "rb");
+
     if (arq == NULL)  // Se houve erro na abertura
     {
+
         cout<<"Problemas na abertura do arquivo"<< endl;
+
         return;
+
     }
-   resultados= fread(n, sizeof n,100, arq);
-   for(i=0;i<resultados;i++){
-    descomp[j]=n[i];
+
+   resultados= fread(n, sizeof n, 100, arq);
+
+   for(i = 0; i < resultados; i++){
+
+    descomp[j] = n[i];
+
    }
+
    arq2 = fopen("reviewsOrig.bin", "wb");
+
    fwrite(n, sizeof(int), 100, arq2);
 
-    fclose(arq);
-
-    std::ifstream file;
-
-    std::string info;
-
+   fclose(arq);
 
 }
 
