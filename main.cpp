@@ -21,7 +21,7 @@ void callCompression()
 void callDecompression()
 {
 
-    FILE *arq,*arq2;
+    FILE *arq, *arq2;
 
     double descomp[100];
 
@@ -29,7 +29,7 @@ void callDecompression()
 
     int resultados;
 
-    int i,j = 0;
+    int i, j = 0;
 
     arq = fopen("reviewsComp.bin", "rb");
 
