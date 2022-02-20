@@ -1,6 +1,9 @@
 #ifndef huffman_H_INCLUDED
 #define huffman_H_INCLUDED
 
+#include <string>
+#include "no.h"
+
 class huffman
 {
     public:
@@ -11,7 +14,7 @@ class huffman
 
     void montador();
 
-    void menores(no *m,no *n);
+    void menores(no *m, no *n);
 
     private:
 
@@ -19,7 +22,7 @@ class huffman
 
     no *raiz, *primeiro;
 
-    string reviews;
+    std::string reviews;
 
 };
 

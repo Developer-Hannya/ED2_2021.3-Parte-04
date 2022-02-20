@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <fstream>
 
+#include "huffman.h"
+#include "no.h"
+#include "TikTokData.h"
+
 using namespace std;
 
 void callCompression()
