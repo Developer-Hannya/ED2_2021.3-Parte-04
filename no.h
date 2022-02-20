@@ -1,5 +1,9 @@
 #ifndef no_H_INCLUDED
-#define no_H_INCLUDED
+#define no_H_INCLUDED 
+
+#include "huffman.h"
+
+using namespace std;
 
 class no
 {
