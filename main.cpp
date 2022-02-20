@@ -12,9 +12,7 @@ using namespace std;
 
 void callCompression()
 {
-    huffman h;
-
-
+    huffman h = huffman(rand() % 3500000);
 
 }
 

@@ -23,11 +23,11 @@ huffman::huffman(int N)
         return;
     }
 
-    for(int i = 0;i < N;i++)
+    for(int i = 0;i < N; i++)
     {
         srand(time(NULL));
         int ale = rand() % 3500000;
-    
+
         r.read((char*) &temp,ale*sizeof(TikTokData));
 
         char *te = temp.getReview();
@@ -66,7 +66,7 @@ void huffman::lista()
             }
             temp = temp->getdir();
         }
-        
+
         if(achado == false)
         {
             no *nov = new no();
@@ -105,7 +105,7 @@ void huffman::montador()
             a->getesq()->setraizpai(false);
             a->getdir()->setraizpai(false);
             b->setraizpai(true);
-            ind--;            
+            ind--;
         }
 
         else if(b->getchar() == '+')
@@ -165,7 +165,7 @@ void huffman::montador()
            b->setpai(novo);
            a->setraizpai(true);
            b->setraizpai(true);
-           ind--; 
+           ind--;
         }
     }
 };
@@ -191,8 +191,8 @@ void huffman::menores(no *m,no *n)
 
             else if(temp->getfreq() < m->getfreq() && temp->getfreq() != n->getfreq() && temp->getpai() == NULL)
                 m = temp;
-                
-            temp = temp->getdir(); 
+
+            temp = temp->getdir();
         }
     }
 };
