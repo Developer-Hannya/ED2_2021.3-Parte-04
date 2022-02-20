@@ -265,7 +265,7 @@ void huffman::montador()
     }
 };
 
-void huffman::menores(no *m,no *n)
+void huffman::menores(no *m, no *n)
 {
 
     m = primeiro;

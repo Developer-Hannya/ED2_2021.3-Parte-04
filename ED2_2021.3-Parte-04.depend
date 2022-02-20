@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1645387811 source:c:\users\bernardo\ed2_2021.3-parte-04\main.cpp
+1645390545 source:c:\users\bernardo\ed2_2021.3-parte-04\main.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
@@ -7,6 +7,7 @@
 	"huffman.h"
 	"no.h"
 	"TikTokData.h"
+	"moduloteste.h"
 
 1645387492 source:c:\users\bernardo\ed2_2021.3-parte-04\tiktokdata.cpp
 	<string>
@@ -28,9 +29,10 @@
 	"huffman.h"
 	"TikTokData.h"
 
-1645388141 c:\users\bernardo\ed2_2021.3-parte-04\no.h
+1645390719 c:\users\bernardo\ed2_2021.3-parte-04\no.h
+	"huffman.h"
 
-1645388185 c:\users\bernardo\ed2_2021.3-parte-04\huffman.h
+1645390568 c:\users\bernardo\ed2_2021.3-parte-04\huffman.h
 	<string>
 	"no.h"
 

@@ -14,6 +14,8 @@ void callCompression()
 {
     huffman h = huffman(rand() % 3500000);
 
+    h.lista();
+
 }
 
 void callDecompression()

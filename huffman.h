@@ -1,13 +1,11 @@
 #ifndef huffman_H_INCLUDED
-#define huffman_H_INCLUDED 
+#define huffman_H_INCLUDED
 
 #include <string>
+
 #include "no.h"
 
 using namespace std;
-
-#include <string>
-#include "no.h"
 
 class huffman
 {
