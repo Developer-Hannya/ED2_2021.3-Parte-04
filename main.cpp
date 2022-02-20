@@ -54,6 +54,10 @@ void callDecompression()
 void callMetrics()
 {
 
+    std::ofstream txt("saida.txt", std::ios::out);
+
+
+
 }
 
 void callMenu()
