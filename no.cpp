@@ -1,25 +1,19 @@
 #include <iostream>
 
 #include "no.h"
-#include "huffman.h"
 
 using namespace std;
 
 no::no()
 {
-
     esq = NULL;
-
     dir = NULL;
-
 };
 
 void no::setinfo(char na,int fr)
 {
     na = n;
-
     frequencia = fr;
-
 };
 
 no *no::getesq()
@@ -63,16 +57,13 @@ bool no::getraizpai()
 
 void no::setsen(no* es,no* di)
 {
-
     es = esq;
-
     di = dir;
-
 };
 
  void no::setraizpai(bool a)
  {
-    raizpai = a;
+    raizpai = a; 
  };
 
  void no::setpai(no *p)
