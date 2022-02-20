@@ -1,6 +1,16 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< Updated upstream
+=======
+#include <fstream>
+#include <string.h>
+#include "huffman.h"
+#include "no.h"
+#include "TikTokData.h"
+#include "moduloteste.h"
+
+>>>>>>> Stashed changes
 using namespace std;
 
 void callCompression()
@@ -15,21 +25,49 @@ void callDecompression()
     double descomp[100];
     double n[100];
     int resultados;
+<<<<<<< Updated upstream
     int i,j=0;
+=======
+
+    int i,x=0, j = 0;
+
+>>>>>>> Stashed changes
     arq = fopen("reviewsComp.bin", "rb");
     if (arq == NULL)  // Se houve erro na abertura
     {
         cout<<"Problemas na abertura do arquivo"<< endl;
         return;
     }
+<<<<<<< Updated upstream
    resultados= fread(n, sizeof n,100, arq);
    for(i=0;i<resultados;i++){
     descomp[j]=n[i];
    }
    arq2 = fopen("reviewsOrig.bin", "wb");
    fwrite(n, sizeof(int), 100, arq2);
+=======
+
+    resultados = fread(n, sizeof n, 100, arq);
+
+    for(i = 0; i < resultados; i++)
+    {
+        for(j=x; j<sizeof n; j++)
+        {
+            if(n[j] != n[j+1])
+                break;
+        }
+        descomp[j] = n[x];
+        x=j+1;
+
+    }
+
+    arq2 = fopen("reviewsOrig.bin", "wb");
+
+    fwrite(descomp, sizeof(int), 100, arq2);
+>>>>>>> Stashed changes
 
     fclose(arq);
+    fclose(arq2);
 
 }
 
