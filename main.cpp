@@ -28,7 +28,7 @@ void callDecompression()
     if (arq == NULL)  // Se houve erro na abertura
     {
 
-        cout<<"Problemas na abertura do arquivo"<< endl;
+        cout << "Problemas na abertura do arquivo" << endl;
 
         return;
 
